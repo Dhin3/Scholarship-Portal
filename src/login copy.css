@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+
+.provLog{
+  width: 100%;
+  height: 100%;
+  background-image: url('./schalorbg2.jpeg  ');
+  background-size:cover;
+}
+.form{
+  width: 600px;
+  border: 1px solid rgba(75, 72, 72, 0.829);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  padding: 50px 40px;
+  background-color: rgba(75, 72, 72, 0.323)
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0 10px;
+  
+  background-position: center;
+  background-size: cover;
+}
+.dont {
+  color: #ffffff;
+}
+.wrapper {
+  width: 500px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f2f2f2;
+}
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #262626;
+  margin: 15px 0;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #f2f2f2;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.input-field input:focus~label,
+.input-field input:valid~label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color: #ffffff;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+}
+
+.remember p {
+  margin-left: 8px;
+}
+
+.wrapper a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+.forg{
+  color: #f2f2f2;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 8px 15px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #ffffff;
+}
